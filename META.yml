@@ -12,8 +12,10 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: RDF-TrineX-Merge-Bnodes
+requires:
+  RDF::Trine: 1.0
 resources:
   bugtracker: https://github.com/nichtich/RDF-TrineX-Merge-Bnodes/issues
   homepage: https://github.com/nichtich/RDF-TrineX-Merge-Bnodes
   repository: https://github.com/nichtich/RDF-TrineX-Merge-Bnodes.git
-version: 0.1.0
+version: 0.1.1

@@ -3,8 +3,14 @@ Changes from 2013-02-11 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.1.0 at 2014-02-11 10:07:08 +0000
+version 0.1.1 at 2014-02-11 10:43:08 +0000
 ------------------------------------------
+
+  Change: 5c7fada4cbefa98f4a0d40673e0d0deb3867718c
+  Author: Jakob Voss <voss@gbv.de>
+  Date : 2014-02-11 11:42:46 +0000
+
+    documentation 
 
   Change: eba8c66e08993f72effae2a0676d84460129d411
   Author: Jakob Voss <voss@gbv.de>

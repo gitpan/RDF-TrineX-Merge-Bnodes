@@ -19,16 +19,20 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "RDF::TrineX::Merge::Bnodes",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "RDF::Trine" => "1.0"
+  },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.1.0",
+  "VERSION" => "0.1.1",
   "test" => {
     "TESTS" => "t/*.t"
   }
 );
 
 
-my %FallbackPrereqs = ();
+my %FallbackPrereqs = (
+  "RDF::Trine" => "1.0"
+);
 
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
